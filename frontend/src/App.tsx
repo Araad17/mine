@@ -1,9 +1,6 @@
-1import { useState, useEffect } from 'react'
-2import { supabase } from './utils/supabase'
-3
+import { useState, useEffect } from "react";
+import { supabase } from "./utils/supabase";
 
-
-import { supabase } from "../utils/supabase";
 import { Navigate, Route, Routes } from "react-router-dom";
 import type { ReactElement } from "react";
 import { useAuth } from "./auth";
